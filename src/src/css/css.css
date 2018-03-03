@@ -1,0 +1,41 @@
+table {
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 660px;
+    height: 660px;
+    margin-top: -330px;
+    margin-left: -330px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+}
+
+td{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 10px;
+
+    font-size:30px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+p{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+}
